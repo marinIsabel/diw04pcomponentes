@@ -65,6 +65,7 @@ body{
   cursor: pointer;
   border: none;
    border-radius: 4px;
+   
 }
 .dos-columnas {
   display: flex;
