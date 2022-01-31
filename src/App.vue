@@ -2,7 +2,7 @@
 <Cabecera />
 <MenuPrincipal />
 <div class="container">
-  <BarraBusqueda />
+ 
   <CaminoMigas />
   <div class="dos-columnas">
     <ProductoImagen />
@@ -19,18 +19,18 @@
 <script>
 import Cabecera from './components/Cabecera.vue'
 import MenuPrincipal from './components/MenuPrincipal.vue'
-import BarraBusqueda from './components/BarraBusqueda.vue'
+
 import CaminoMigas from './components/CaminoMigas.vue'
 import ProductoImagen from './components/ProductoImagen.vue'
 import ProductoDatos  from './components/ProductoDatos.vue'
 import ProductoDescripcion from './components/ProductoDescripcion.vue'
 import Pie from './components/Pie.vue'
 
+
 export default {
   name: 'App',
   components: { Cabecera, 
                 MenuPrincipal, 
-                BarraBusqueda, 
                 CaminoMigas, 
                 ProductoImagen, 
                 ProductoDatos,
@@ -57,13 +57,14 @@ body{
 }
 
 .boton {
-  background-color: #1abc9c;
+  background: #FEB100;
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
   padding: 0.7rem 1.2rem;
   cursor: pointer;
   border: none;
+   border-radius: 4px;
 }
 .dos-columnas {
   display: flex;
